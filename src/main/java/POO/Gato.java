@@ -13,6 +13,7 @@ public class Gato extends Animal {
     public Gato(String pelo, String boca, String cola, String ojo, Integer patas) {
         super(pelo, boca, cola, ojo, patas);
     }
+    @Override
     public void sonido(){
         System.out.println("El GAto maulla");
                 
