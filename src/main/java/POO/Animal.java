@@ -63,8 +63,7 @@ public class Animal {
         this.patas = patas;
     }
 
-    void sonido() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void sonido(){
     }
-    
+        
 }
