@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package clase20241116;
 
 /**
@@ -20,8 +17,6 @@ public class televisor extends producto{
 
    
 
-    
-
     public String getPantalla() {
         return pantalla;
     }
@@ -37,6 +32,16 @@ public class televisor extends producto{
     public void setSonido(String sonido) {
         this.sonido = sonido;
     }
-    
+
+    @Override
+    public String getModelo() {
+        return modelo;
+    }
+
+    @Override
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
     
 }
