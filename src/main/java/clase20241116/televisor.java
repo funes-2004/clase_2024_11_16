@@ -9,13 +9,11 @@ public class televisor extends producto{
     private String pantalla; 
     private String sonido;
 
-    public televisor(String pantalla, String sonido, String color, String marca, String modelo) {
-        super(color, marca, modelo);
+    public televisor(String pantalla, String sonido, String colors, String marca, String modelo) {
+        super(colors, marca, modelo);
         this.pantalla = pantalla;
         this.sonido = sonido;
     }
-
-   
 
     public String getPantalla() {
         return pantalla;
@@ -33,15 +31,15 @@ public class televisor extends producto{
         this.sonido = sonido;
     }
 
-    @Override
     public String getModelo() {
         return modelo;
     }
 
-    @Override
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
 
+    
+    
     
 }
