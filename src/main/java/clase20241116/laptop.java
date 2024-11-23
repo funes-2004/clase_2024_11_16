@@ -9,8 +9,7 @@ package clase20241116;
  * @author Dell 5421
  */
 public class laptop extends producto{
-    
-    private String pantalla;
+    private String pantalla; 
     private String teclado; 
 
     public laptop(String pantalla, String teclado, String color, String marca, String modelo) {
@@ -18,7 +17,8 @@ public class laptop extends producto{
         this.pantalla = pantalla;
         this.teclado = teclado;
     }
-
+    
+    
     public String getPantalla() {
         return pantalla;
     }
@@ -34,6 +34,13 @@ public class laptop extends producto{
     public void setTeclado(String teclado) {
         this.teclado = teclado;
     }
-    
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
     
 }

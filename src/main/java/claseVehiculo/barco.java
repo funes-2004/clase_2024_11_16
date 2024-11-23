@@ -11,12 +11,12 @@ package claseVehiculo;
 public class barco {
     private float longitud; 
     private int capacidad; 
-    private String tipo; 
+    private String Gps; 
 
-    public barco(float longitud, int capacidad, String tipo) {
+    public barco(float longitud, int capacidad, String Gps) {
         this.longitud = longitud;
         this.capacidad = capacidad;
-        this.tipo = tipo;
+        this.Gps = Gps;
     }
 
     public float getLongitud() {
@@ -35,13 +35,14 @@ public class barco {
         this.capacidad = capacidad;
     }
 
-    public String getTipo() {
-        return tipo;
+    public String getGps() {
+        return Gps;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setGps(String Gps) {
+        this.Gps = Gps;
     }
+
     
     
 }

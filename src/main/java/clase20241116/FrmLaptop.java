@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * @author Dell 5421
  */
 public class FrmLaptop extends javax.swing.JFrame {
-    List<Laptop> lista = new ArrayList<>();
+    List<laptop> lista = new ArrayList<>();
     /**
      * Creates new form FrmLaptop
      */
@@ -168,7 +168,7 @@ public class FrmLaptop extends javax.swing.JFrame {
     private void btnAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAceptarActionPerformed
         // TODO add your handling code here:
         
-        lista.add(new Laptop(
+        lista.add(new laptop(
                 txtPantalla.getText(),
                 txtTeclado.getText(),
                 String.valueOf(cboColor.getSelectedItem()),
@@ -178,7 +178,7 @@ public class FrmLaptop extends javax.swing.JFrame {
     }//GEN-LAST:event_btnAceptarActionPerformed
 
     private void btnMostrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMostrarActionPerformed
-    for(Laptop item:lista){
+    for(laptop item:lista){
         System.out.println("pantalla: "+ item.getPantalla());
         System.out.println("teclado   "+item.getTeclado());
         System.out.println("color" + item.getColor());
