@@ -11,7 +11,7 @@ package clase20241116;
 public class producto {
     private String color;
     private String marca ;
-    String modelo;
+    private String modelo;
 
     public producto(String color, String marca, String modelo) {
         this.color = color;

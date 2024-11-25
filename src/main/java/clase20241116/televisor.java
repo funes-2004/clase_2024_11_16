@@ -9,8 +9,8 @@ public class televisor extends producto{
     private String pantalla; 
     private String sonido;
 
-    public televisor(String pantalla, String sonido, String colors, String marca, String modelo) {
-        super(colors, marca, modelo);
+    public televisor(String pantalla, String sonido, String color, String marca, String modelo) {
+        super(color, marca, modelo);
         this.pantalla = pantalla;
         this.sonido = sonido;
     }
@@ -31,15 +31,7 @@ public class televisor extends producto{
         this.sonido = sonido;
     }
 
-    public String getModelo() {
-        return modelo;
-    }
-
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
-    }
-
-    
+   
     
     
 }

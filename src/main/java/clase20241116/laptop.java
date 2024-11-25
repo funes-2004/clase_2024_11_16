@@ -17,8 +17,7 @@ public class laptop extends producto{
         this.pantalla = pantalla;
         this.teclado = teclado;
     }
-    
-    
+
     public String getPantalla() {
         return pantalla;
     }
@@ -35,12 +34,6 @@ public class laptop extends producto{
         this.teclado = teclado;
     }
 
-    public String getModelo() {
-        return modelo;
-    }
-
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
-    }
+   
     
 }
