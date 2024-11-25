@@ -10,4 +10,5 @@
         <maven.compiler.release>23</maven.compiler.release>
         <exec.mainClass>POO.JavaClase</exec.mainClass>
     </properties>
+    <name>java.class</name>
 </project>
